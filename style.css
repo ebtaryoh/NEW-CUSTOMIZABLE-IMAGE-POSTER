@@ -1,204 +1,208 @@
 body {
-    font-family: "Arial", sans-serif;
-    background: linear-gradient(to right, #ffafbd, #ffc3a0);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: auto;
-    text-align: center;
-    color: #fff;
-  }
-  
-  .background-image {
-    width: 100%;
-    height: 400px;
-    background-image: url("images/vecteezy_3d-love-hear-icon-red-color-png_9875167.png");
-    background-size: cover; /* Adjusts the image to cover the entire element */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /*
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(to right, #ffafbd, #ffc3a0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+}
+
+.background-image {
+  width: 100%;
+  height: 400px;
+  background-image: url("images/vecteezy_3d-love-hear-icon-red-color-png_9875167.png");
+  background-size: cover; /* Adjusts the image to cover the entire element */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /*
      Prevents the image from repeating */
-     ;
-  }
-  
-  .poster-container {
-    background-color: rgba(255, 255, 255, 0.2);
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    margin: auto;
-  }
-  
-  .poster {
-    width: 500px;
-    height: 550px;
-    padding: 20px;
-    background: rgb(255, 135, 135);
-    
-    border-radius: 15px;
-    text-align: center;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-    position: relative;
-    /* background-image: url(images/vecteezy_3d-love-hear-icon-red-color-png_9875167.png); */
-    background-image: url(images/MFM\ Singles\ Hangout.png);
-    background-size:cover;
-    background-position: center;
-    background-repeat: repeat;
-  }
-  
-  .poster-header h1,
-  h3,
-  h4 {
-    color: #ffff;
-    /* font-size: 24px; */
-    margin: 10px 0;
-    font-weight: bold;
-  }
-  .poster-header h1 {
-    font-weight: bold;
-    font-size: 40px;
-    color: #ffff;
-    text-shadow: -4px 2px 1px #ff87a3; 
-    /* 2px -2px 0 #000, 
+}
+
+.poster-container {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  margin: auto;
+}
+
+.poster {
+  width: 500px;
+  height: 550px;
+  padding: 20px;
+  background: rgb(255, 135, 135);
+
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  position: relative;
+  /* background-image: url(images/vecteezy_3d-love-hear-icon-red-color-png_9875167.png); */
+  background-image: url(images/MFM\ Singles\ Hangout.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+}
+
+.poster-header h1,
+h3,
+h4 {
+  color: #ffff;
+  /* font-size: 24px; */
+  margin: 10px 0;
+  font-weight: bold;
+}
+.poster-header h1 {
+  font-weight: bold;
+  font-size: 40px;
+  color: #ffff;
+  text-shadow: -4px 2px 1px #ff87a3;
+  /* 2px -2px 0 #000, 
     /* -2px 2px 0 #000, 
     /* 2px 2px 0 #000; 
     /* margin: 10px 0; */
-  }
-  
-  .poster-header p {
-    color: #f45c43;
-    font-size: 14px;
-  }
-  
-  .image-container {
-    width: 150px;
-    height: 150px;
-    /* margin: 20px ; */
-    margin-top: -10px;
-    border: 5px solid rgb(255, 17, 17);
-    border-radius: 50%;
-    overflow: hidden;
-  }
-  
-  .image-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .highlights {
-    color: white;
-    background-color: #f45c43;
-    padding: 10px;
-    border-radius: 8px;
-    font-weight: bold;
+}
+
+.poster-header p {
+  color: #f45c43;
+  font-size: 14px;
+}
+
+.image-container {
+  width: 150px;
+  height: 150px;
+  /* margin: 20px ; */
+  margin-top: -10px;
+  border: 5px solid rgb(255, 17, 17);
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.highlights {
+  color: white;
+  background-color: #f45c43;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.join-us {
+  color: black;
+  margin-top: 166px;
+  font-weight: bold;
+}
+
+#custom-name {
+  font-size: 22px;
+  color: black;
+  margin: 90px 0;
+  font-weight: bold;
+}
+
+.event-details {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.choose-file {
+  margin-left: 50px;
+}
+
+input,
+button {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="file"] {
+  cursor: pointer;
+}
+
+button {
+  background-color: #ff6f91;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #f45c43;
+}
+
+/* Media Query for Mobile Devices (max-width: 480px) */
+@media (max-width: 480px) {
+  .poster-container {
+    padding: 5px;
   }
 
-  .join-us{
-    color: black;
-    margin-top: 166px;
-    font-weight: bold;
+  .poster {
+    width: 450px;
+    height: 480px;
+    padding: 10px;
+    /* height: auto; */
+    margin: 5px auto;
   }
-  
-  #custom-name {
-    font-size: 22px;
-    color: black;
-    margin: 90px 0;
-    font-weight: bold;
+
+  .poster-header h1 {
+    font-size: 20px;
   }
-  
-  .event-details {
+
+  .poster-header h3,
+  .poster-header h4 {
     font-size: 14px;
-    color: #ffffff;
-    font-weight: bold;
   }
-  
+
+  #custom-name {
+    font-size: 16px;
+    margin-top: 84px;
+  }
+
+  .image-container {
+    width: 90px;
+    height: 90px;
+    margin-left:  35px;
+    margin-top: 10px;
+  }
+  .join-us{
+    margin-top: 150px;
+    margin-right: 30px;
+  }
+
+  .highlights {
+    font-size: 12px;
+    padding: 5px;
+    margin: 10px 0;
+  }
+
+  .event-details {
+    font-size: 12px;
+  }
+
   .controls {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+    gap: 5px;
+    padding: 5px;
   }
-  .choose-file{
-    margin-left: 50px;
-  }
-  
+
   input,
   button {
-    padding: 10px;
-    font-size: 16px;
-    border-radius: 5px;
-    border: none;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+    padding: 8px;
+    width: 100%;
   }
-  
-  input[type="file"] {
-    cursor: pointer;
-  }
-  
-  button {
-    background-color: #ff6f91;
-    color: #fff;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  button:hover {
-    background-color: #f45c43;
-  }
-  
-  
-  Media Query for Mobile Devices (max-width: 480px) */
-   @media (max-width: 480px) {
-    .poster-container {
-      padding: 5px;
-    }
-  
-    .poster {
-      width: 100%;
-      padding: 10px;
-      height: auto;
-      margin: 5px auto;
-    }
-  
-    .poster-header h1 {
-      font-size: 20px;
-    }
-  
-    .poster-header h3,
-    .poster-header h4 {
-      font-size: 14px;
-    }
-  
-    #custom-name {
-      font-size: 16px;
-    }
-  
-    .image-container {
-      width: 80px;
-      height: 80px;
-      margin: 10px auto;
-    }
-  
-    .highlights {
-      font-size: 12px;
-      padding: 5px;
-      margin: 10px 0;
-    }
-  
-    .event-details {
-      font-size: 12px;
-    }
-  
-    .controls {
-      gap: 5px;
-      padding: 5px;
-    }
-  
-    input,
-    button {
-      font-size: 12px;
-      padding: 8px;
-      width: 100%;
-    }
-  }
-  
+}
