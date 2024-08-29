@@ -147,6 +147,17 @@ button:hover {
 
 /* Media Query for Mobile Devices (max-width: 480px) */
 @media (max-width: 480px) {
+  body {
+    font-family: "Arial", sans-serif;
+    background: linear-gradient(to right, #ffafbd, #ffc3a0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-left: 100px;
+    text-align: center;
+    color: #fff;
+  }
   .poster-container {
     padding: 5px;
   }
