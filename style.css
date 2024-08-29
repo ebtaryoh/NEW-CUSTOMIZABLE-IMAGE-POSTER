@@ -118,6 +118,9 @@ body {
     flex-direction: column;
     gap: 10px;
   }
+  .choose-file{
+    margin-left: 50px;
+  }
   
   input,
   button {
