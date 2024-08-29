@@ -75,7 +75,7 @@ body {
     width: 150px;
     height: 150px;
     /* margin: 20px ; */
-    margin-top: 180px;
+    margin-top: -10px;
     border: 5px solid rgb(255, 17, 17);
     border-radius: 50%;
     overflow: hidden;
@@ -91,6 +91,12 @@ body {
     background-color: #f45c43;
     padding: 10px;
     border-radius: 8px;
+    font-weight: bold;
+  }
+
+  .join-us{
+    color: black;
+    margin-top: 166px;
     font-weight: bold;
   }
   
