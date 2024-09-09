@@ -200,7 +200,7 @@ button:hover {
   .image-container img {
     width: auto;
     height: 100%;
-    object-fit: cover; /* Ensures the image covers the container */
+    object-fit: contain; /* Ensures the image covers the container */
     object-position: center; /* Centers the image */
   }
   .join-us {
